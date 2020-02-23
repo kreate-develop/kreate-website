@@ -5,4 +5,15 @@
   color: $dark-blue;
 
   text-decoration: none;
+  box-sizing: border-box;
+
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: $main-color;
+  }
+}
+
+.Active {
+  color: $main-color;
 }

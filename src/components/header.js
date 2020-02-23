@@ -20,14 +20,11 @@ export default () => {
               <StyledLink to="/about_us">About us</StyledLink>
             </li>
             <li>
-              <StyledLink to="/services">services</StyledLink>
+              <StyledLink to="/services">Services</StyledLink>
             </li>
             <li>
-              <StyledLink to="/our_work">Our work</StyledLink>
-            </li>
-            <li>
-              <Link to="/Contact_us">
-                <span className={s.contactUs}>Contact us</span>
+              <Link to="/Contact_us" className={s.contactUs}>
+                Contact us
               </Link>
             </li>
           </ul>
