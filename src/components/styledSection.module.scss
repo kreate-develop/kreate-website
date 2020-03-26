@@ -4,7 +4,7 @@
   height: 90vh;
   width: calc(100vw - 19px);
 
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -14,13 +14,7 @@
   width: 85%;
   height: 100%;
 
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.shadow {
-  box-shadow: 0px 0px 0px -5px rgba(255, 255, 255, 0.7),
-    0px 0px 0px -10px rgba(255, 255, 255, 0.5),
-    0px 0px 0px -15px rgba(255, 255, 255, 0.3);
 }

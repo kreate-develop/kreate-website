@@ -1,0 +1,22 @@
+@import "../styles/global.scss";
+
+.Title {
+  width: fit-content;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: $dark-blue;
+    margin: 0;
+    font-weight: 500;
+
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-right: 75px;
+
+    border-bottom: 3px solid $dark-blue;
+  }
+}
