@@ -6,7 +6,7 @@ export default () => {
     <div className="h-screen relative">
       <div className="p-5 absolute inset-x-0">
         <StyledLink to="/">
-          <i className="material-icons">close</i>
+          <i className="material-icons">highlight_off</i>
         </StyledLink>
       </div>
 

@@ -8,9 +8,9 @@ export const IntroGallery = props => {
       {images.map((image, idx) => (
         <div
           key={idx}
-          className="border-box overflow-hidden w-32 h-32 rounded-full"
+          className="border-box w-24 h-24 md:w-32 md:h-32 mr-5 md:mr-1 rounded-full"
         >
-          <img className="h-full bg-cover" src={image} alt="" />
+          <img className="h-full rounded-full bg-cover" src={image} alt="" />
         </div>
       ))}
     </div>
