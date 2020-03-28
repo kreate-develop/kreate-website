@@ -8,7 +8,7 @@ export const IntroGallery = props => {
       {images.map((image, idx) => (
         <div
           key={idx}
-          className="border-box overflow-hidden m-1 w-32 h-32 rounded-full"
+          className="border-box overflow-hidden w-32 h-32 rounded-full"
         >
           <img className="h-full bg-cover" src={image} alt="" />
         </div>

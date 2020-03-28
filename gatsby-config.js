@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/kreate-website",
   siteMetadata: {
     mainColor: "#3c81fa",
     secondColor: "#2f4858",

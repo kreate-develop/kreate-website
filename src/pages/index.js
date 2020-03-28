@@ -58,13 +58,16 @@ export default () => {
       <div id="about">
         <StyledSection>
           <div className="flex flex-col xs:flex-row p-10 xs:p-0 xs:px-16 xs:py-10 xl:px-40 bg-gray-100">
-            <div className="mb-10">
-              <Title label="About" color="#2f4858" />
-            </div>
             <div className="mb-10 xs:w-2/4">
+              <div className="mb-10">
+                <Title label="About" color="#2f4858" />
+              </div>
               <p className="mb-5">{about}</p>
               <p className="mb-5">
-                {about} <span className="">see more...</span>
+                {about}{" "}
+                <span className="text-blue-600 hover:text-blue-500 cursor-pointer">
+                  see more...
+                </span>
               </p>
             </div>
 

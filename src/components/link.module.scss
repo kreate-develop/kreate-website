@@ -1,14 +1,8 @@
 @import "../styles/global.scss";
 
 .innerHeader_navigation_list_item {
-  margin-right: 15px;
   color: $dark-blue;
-
-  text-decoration: none;
-  box-sizing: border-box;
-
   transition: color 0.3s ease-in-out;
-
   &:hover {
     color: $main-color;
   }

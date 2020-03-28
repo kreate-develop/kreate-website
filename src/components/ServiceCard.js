@@ -14,7 +14,9 @@ export default props => {
           className="bg-black h-32 w-32 rounded-full flex justify-center items-center"
           style={{ backgroundColor: `${color && color}` }}
         >
-          <i className="material-icons text-6xl text-white">{icon}</i>
+          <i className="material-icons text-white" style={{ fontSize: 75 }}>
+            {icon}
+          </i>
         </div>
       </div>
       <div className={s.ServiceCardContent}>
