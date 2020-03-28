@@ -1,12 +1,7 @@
 @import "../styles/global.scss";
 
 .Title {
-  width: fit-content;
-
-  box-sizing: border-box;
-
-  display: flex;
-  flex-direction: column;
+  // width: fit-content;
 
   h1 {
     color: $dark-blue;

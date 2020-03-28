@@ -17,31 +17,11 @@
   flex-direction: column;
 
   position: relative;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .serviceCardCircle {
   height: 60%;
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Service-card-icon {
-  background: #000;
-
-  height: 150px;
-  width: 150px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 50%;
-  i {
-    font-size: 65px;
-    color: #fff;
-  }
 }
 
 .Service-card-content {

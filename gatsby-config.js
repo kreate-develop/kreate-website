@@ -9,7 +9,15 @@ module.exports = {
     perferendis repellendus minus blanditiis quas. Voluptatibus.`,
   },
   plugins: [
-    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        postCssPlugins: [
+          require("tailwindcss"),
+          require("./tailwind.config.js"),
+        ],
+      },
+    },
     {
       resolve: "gatsby-plugin-google-fonts",
       options: {
@@ -25,5 +33,6 @@ module.exports = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-postcss",
   ],
 }
