@@ -42,11 +42,15 @@ export default () => {
   return (
     <Layout>
       <StyledSection>
-        <div className="h-screen flex flex-col-reverse xs:flex-row items-center justify-center relative">
-          <div className="mt-5 md:mt-0">
-            <Title label={slogan} />
+        <div className="h-screen pr-30 flex  items-center justify-center relative">
+          <div className="mx-auto flex items-center flex-col-reverse xs:flex-row ">
+            <div className="mt-40 xs:mt-0 xs:mr-24">
+              <Title classes="text-3xl px-10 xs:px-0" label={slogan} />
+            </div>
+            <div className="w-2/4 flex items-center justify-center">
+              <IntroGallery images={["map.jpg", "3.jpg", "4.jpg"]} />
+            </div>
           </div>
-          <IntroGallery images={["map.jpg", "3.jpg", "4.jpg"]} />
         </div>
         <div className=" mb-6 absolute bottom-0">
           <a href="#about">
@@ -60,7 +64,7 @@ export default () => {
           <div className="flex flex-col xs:flex-row p-10 xs:p-0 xs:px-16 xs:py-10 xl:px-40 bg-gray-100">
             <div className="mb-10 xs:w-2/4">
               <div className="mb-10">
-                <Title label="About" color="#2f4858" />
+                <Title classes="font-medium" label="About" color="#2f4858" />
               </div>
               <p className="mb-5">{about}</p>
               <p className="mb-5">

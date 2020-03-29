@@ -6,7 +6,7 @@ export default props => {
   const { icon, title, content, color } = props
   console.log(color)
   return (
-    <div className={`${s.ServiceCard} mb-10 xs:mb-0 xs:mr-10 shadow-lg`}>
+    <div className={`${s.ServiceCard} mb-10 xs:mb-0 xs:mr-10 shadow-md`}>
       <div
         className={`${s.serviceCardCircle} w-full flex justify-center items-center`}
       >

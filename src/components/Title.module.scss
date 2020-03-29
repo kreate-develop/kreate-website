@@ -1,8 +1,6 @@
 @import "../styles/global.scss";
 
 .Title {
-  // width: fit-content;
-
   h1 {
     color: $dark-blue;
     margin: 0;
@@ -10,8 +8,7 @@
 
     box-sizing: border-box;
     padding-bottom: 15px;
-    padding-right: 75px;
-
-    border-bottom: 3px solid $dark-blue;
+    padding-right: 55px;
+    border-bottom: 3px solid $main-color;
   }
 }
